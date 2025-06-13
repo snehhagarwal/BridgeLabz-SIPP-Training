@@ -1,4 +1,4 @@
-public class Main {
+public class ProfitAndLoss {
     public static void main(String[] args) {
         // Cost price and selling price
         int costPrice = 129;

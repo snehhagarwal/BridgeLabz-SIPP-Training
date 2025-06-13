@@ -1,4 +1,4 @@
-public class Main {
+public class UniversityDiscountedAmountAndPrice {
     public static void main(String[] args) {
         // Initial course fee
         int fee = 125000;

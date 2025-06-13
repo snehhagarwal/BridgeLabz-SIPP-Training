@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class TravelData {
+public class TotalDistanceAndTimeViaCities {
     public static void main(String[] args) {
         // Create Scanner object for input
         Scanner input = new Scanner(System.in);

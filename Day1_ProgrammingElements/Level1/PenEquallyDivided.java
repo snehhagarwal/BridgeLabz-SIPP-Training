@@ -1,4 +1,4 @@
-public class Main {
+public class PenEquallyDivided {
     public static void main(String[] args) {
         // Total number of pens
         int totalPens = 14;

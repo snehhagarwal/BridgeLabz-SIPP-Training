@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class Swap2Numbers {
     public static void main(String[] args) {
         // Create Scanner object for user input
         Scanner input = new Scanner(System.in);

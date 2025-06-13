@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class AreaOfTriangle {
     public static void main(String[] args) {
         // Create Scanner object for user input
         Scanner input = new Scanner(System.in);
@@ -23,5 +23,7 @@ public class Main {
 
         // Output the result
         System.out.println("The Area of the triangle in sq in is " + areaSqIn + " and sq cm is " + areaSqCm);
+
+        input.close();
     }
 }

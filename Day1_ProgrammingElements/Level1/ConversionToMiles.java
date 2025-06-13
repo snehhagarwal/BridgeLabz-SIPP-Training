@@ -1,4 +1,4 @@
-public class Main {
+public class ConversionToMiles {
     public static void main(String[] args) {
         // Distance in kilometers
         double kilometers = 10.8;

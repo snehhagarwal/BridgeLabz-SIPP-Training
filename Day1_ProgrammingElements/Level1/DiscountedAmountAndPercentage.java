@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class DiscountedAmountAndPercentage {
     public static void main(String[] args) {
         // Create Scanner object for user input
         Scanner scanner = new Scanner(System.in);

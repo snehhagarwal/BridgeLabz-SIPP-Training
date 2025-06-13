@@ -1,4 +1,4 @@
-public class Main {
+public class HarryAge {
     public static void main(String[] args) {
         // As per the problem statement, Harry's birth year is 2000.
         int birthYear = 2000;

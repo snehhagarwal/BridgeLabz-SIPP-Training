@@ -1,4 +1,4 @@
-public class Main {
+public class SamAvgMarks {
     public static void main(String[] args) {
         // As per the problem statement, marks are out of 100.
         int mathsMark = 94;     // Sam's mark in Maths

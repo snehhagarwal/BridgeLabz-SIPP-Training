@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main {
+public class KmToMiles {
     public static void main(String[] args) {
         // Create Scanner object to take user input
         Scanner input = new Scanner(System.in);
