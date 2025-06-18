@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 public class ToUpperCaseCompare {
     public static String toUpperCase(String text) {
