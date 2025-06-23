@@ -1,5 +1,4 @@
 import java.util.*; // Import utility classes
-
 public class MaxOfThree {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in); // Scanner for input
