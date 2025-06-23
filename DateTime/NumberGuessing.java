@@ -1,5 +1,4 @@
 import java.util.*; // Import Scanner
-
 public class NumberGuessing {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in); // Input scanner
