@@ -12,7 +12,6 @@ public class DateArithmetic {
 
         System.out.println("Original Date: " + date);
         System.out.println("Modified Date: " + modifiedDate);
-
         sc.close();
     }
 }
