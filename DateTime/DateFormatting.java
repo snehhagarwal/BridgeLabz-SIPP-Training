@@ -1,6 +1,5 @@
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-
 public class DateFormatting {
     public static void main(String[] args) {
         LocalDate currentDate = LocalDate.now();
