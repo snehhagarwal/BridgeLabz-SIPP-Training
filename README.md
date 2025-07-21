@@ -178,7 +178,7 @@ Ques: Add music playlist queue with custom LinkedList and OOP design
 
 ### 📅 11/07/25 (Fri) – Day 5 – Algorithm's Runtime Analysis & Big-O Notation  
 *Topics*:Runtime Analysis;Understanding Big-O Notation;Time Complexity Analysis;Space Complexity Analysis;Best, Worst, and Average Case Complexities;Practical Guidelines for Optimizing Java Code
-🔗 [Code](https://github.com/devikaagarwal/BridgeLabz-SIPP-Training/tree/dsa/DSA/Algorithm's_Runtime_Analysis)
+🔗 [Code](https://github.com/snehhagarwal/BridgeLabz-SIPP-Training/tree/DSA/Algorithm's_Runtime_Analysis)
 
 ---
 
