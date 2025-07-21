@@ -119,34 +119,34 @@ Ques2: Implemented CinemaTime movie schedule manager with all core features.
 
 ### 📅 04/07/25 (Fri) – Day 4
 Ques: Add parcel tracker with stage tracking and lost parcel handling.
-[Code](https://github.com/devikaagarwal/BridgeLabz-SIPP-Training/blob/workshop/WORKSHOP/ParcelTracker.java)
+[Code](https://github.com/snehhagarwal/BridgeLabz-SIPP-Training/blob/Workshop/Day4/ParcelTracker.java)
 
 ---
 
 ### 📅 10/07/25 (Thurs) – Day 5
 Ques: Implement University Enrollment System with OOP: classes, inheritance, grading interface, GPA handling.
-[Code](https://github.com/devikaagarwal/BridgeLabz-SIPP-Training/blob/workshop/WORKSHOP/UniversitySystem.java)
+[Code](https://github.com/snehhagarwal/BridgeLabz-SIPP-Training/blob/Workshop/Day5/UniversitySystem.java)
 
 ---
 
 ### 📅 11/07/25 (Fri) – Day 6
 Ques: Implement backend classes for CabGo ride-hailing app with vehicles, drivers, ride booking, and fare calculation.
-[Code](https://github.com/devikaagarwal/BridgeLabz-SIPP-Training/blob/workshop/WORKSHOP/CabGoTest.java)
+[Code](https://github.com/snehhagarwal/BridgeLabz-SIPP-Training/blob/Workshop/Day6/CabGoTest.java)
 
 ---
 
 ### 📅 14/07/25 (Mon) – Day 7
 Ques 1: add browser history navigation using doubly linked list and OOP principles
-[Code](https://github.com/devikaagarwal/BridgeLabz-SIPP-Training/blob/workshop/WORKSHOP/BrowserHistoryDemo.java)
+[Code](https://github.com/snehhagarwal/BridgeLabz-SIPP-Training/blob/Workshop/Day7/BrowserHistoryDemo.java)
 
 Ques 2: Implement genre-wise library catalog using HashMap and LinkedList with duplication check via HashSet
-[Code](https://github.com/devikaagarwal/BridgeLabz-SIPP-Training/blob/workshop/WORKSHOP/BookShelfDemo.java)
+[Code](https://github.com/snehhagarwal/BridgeLabz-SIPP-Training/blob/Workshop/Day7/BookShelfDemo.java)
 
 ---
 
 ### 📅 15/07/25 (Tues) – Day 8
 Ques: Add music playlist queue with custom LinkedList and OOP design
-[Code](https://github.com/devikaagarwal/BridgeLabz-SIPP-Training/blob/workshop/WORKSHOP/MusicPlayList.java)
+[Code](https://github.com/snehhagarwal/BridgeLabz-SIPP-Training/blob/Workshop/Day8/MusicPlayList.java)
 
 ---
 
