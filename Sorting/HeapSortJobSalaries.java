@@ -1,7 +1,5 @@
 package Sorting;
 
-package DSA.Sorting_Algorithms;
-
 public class HeapSortJobSalaries {
     public static void heapSort(int[] salaries) {
         int n = salaries.length;
