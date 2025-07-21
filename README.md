@@ -182,5 +182,11 @@ Ques: Add music playlist queue with custom LinkedList and OOP design
 
 ---
 
+## Generics Branch 🧱
+
+### 📅 21/07/25 (Mon) – Day 1 
+*Topics*:  Introduction to Generics,Type Parameters,Generic Classes,Generic Methods,Bounded Type Parameters,Wildcards
+🔗 [Code](https://github.com/snehhagarwal/BridgeLabz-SIPP-Training/tree/Generics)
+
 ## 📝 Note:
 Each topic’s code is organized in its dedicated branch — but this main README connects everything.
