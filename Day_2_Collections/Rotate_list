@@ -1,0 +1,33 @@
+import java.util.*;
+
+public class RotateList {
+    public static List<Integer> rotate(List<Integer> list, int positions) {
+        int size = list.size();
+        if (size == 0 || positions % size == 0) return new ArrayList<>(list);
+
+        positions = positions % size;
+        List<Integer> rotated = new ArrayList<>(size);
+        rotated.addAll(list.subList(positions, size));
+        rotated.addAll(list.subList(0, positions));
+        return rotated;
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter number of elements: ");
+        int n = scanner.nextInt();
+
+        List<Integer> input = new ArrayList<>();
+        System.out.println("Enter elements:");
+        for (int i = 0; i < n; i++) {
+            input.add(scanner.nextInt());
+        }
+
+        System.out.print("Enter number of positions to rotate: ");
+        int rotateBy = scanner.nextInt();
+
+        List<Integer> output = rotate(input, rotateBy);
+        System.out.println("Rotated list: " + output);
+    }
+}
