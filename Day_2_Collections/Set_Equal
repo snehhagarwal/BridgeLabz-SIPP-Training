@@ -1,0 +1,27 @@
+import java.util.*;
+
+public class SetEqualCheck {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Input for first set
+        System.out.print("Enter elements of Set1 separated by spaces: ");
+        String[] set1Input = scanner.nextLine().split(" ");
+        Set<Integer> set1 = new HashSet<>();
+        for (String s : set1Input) {
+            set1.add(Integer.parseInt(s));
+        }
+
+        // Input for second set
+        System.out.print("Enter elements of Set2 separated by spaces: ");
+        String[] set2Input = scanner.nextLine().split(" ");
+        Set<Integer> set2 = new HashSet<>();
+        for (String s : set2Input) {
+            set2.add(Integer.parseInt(s));
+        }
+
+        // Compare sets
+        boolean areEqual = set1.equals(set2);
+        System.out.println("Are the two sets equal? " + areEqual);
+    }
+}
