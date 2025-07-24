@@ -1,0 +1,30 @@
+import java.util.*;
+
+public class SubsetCheck {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Input Set1
+        System.out.println("Enter elements of Set1 separated by spaces:");
+        String[] set1Input = scanner.nextLine().split("\\s+");
+        Set<Integer> set1 = new HashSet<>();
+        for (String num : set1Input) {
+            set1.add(Integer.parseInt(num));
+        }
+
+        // Input Set2
+        System.out.println("Enter elements of Set2 separated by spaces:");
+        String[] set2Input = scanner.nextLine().split("\\s+");
+        Set<Integer> set2 = new HashSet<>();
+        for (String num : set2Input) {
+            set2.add(Integer.parseInt(num));
+        }
+
+        // Check subsets
+        boolean set1IsSubset = set2.containsAll(set1);
+        boolean set2IsSubset = set1.containsAll(set2);
+
+        System.out.println("Set1 is subset of Set2: " + set1IsSubset);
+        System.out.println("Set2 is subset of Set1: " + set2IsSubset);
+    }
+}
