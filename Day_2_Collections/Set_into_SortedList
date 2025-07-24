@@ -1,0 +1,18 @@
+import java.util.*;
+
+public class SetToSortedList {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        Set<Integer> hashSet = new HashSet<>();
+
+        System.out.println("Enter integers for the set (non-integer input will stop):");
+        while (scanner.hasNextInt()) {
+            hashSet.add(scanner.nextInt());
+        }
+
+        List<Integer> sortedList = new ArrayList<>(hashSet);
+        Collections.sort(sortedList);
+
+        System.out.println("Sorted List: " + sortedList);
+    }
+}
