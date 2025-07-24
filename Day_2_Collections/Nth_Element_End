@@ -1,0 +1,55 @@
+import java.util.LinkedList;
+import java.util.ListIterator;
+import java.util.Scanner;
+
+public class NthElementFromEnd {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Input list elements
+        System.out.print("Enter elements of the list separated by spaces: ");
+        String[] elements = scanner.nextLine().split(" ");
+        LinkedList<String> list = new LinkedList<>();
+        for (String elem : elements) {
+            list.add(elem);
+        }
+
+        // Input N
+        System.out.print("Enter N (Nth element from end): ");
+        int n = scanner.nextInt();
+
+        // Two pointer approach
+        if (n <= 0) {
+            System.out.println("N must be positive.");
+            return;
+        }
+
+        ListIterator<String> first = list.listIterator();
+        ListIterator<String> second = list.listIterator();
+
+        // Move first pointer n steps ahead
+        int count = 0;
+        while (count < n && first.hasNext()) {
+            first.next();
+            count++;
+        }
+
+        if (count < n) {
+            System.out.println("N is larger than the list size.");
+            return;
+        }
+
+        // Move both pointers until first reaches the end
+        while (first.hasNext()) {
+            first.next();
+            second.next();
+        }
+
+        // second is at the Nth from end
+        if (second.hasNext()) {
+            System.out.println("Nth element from end: " + second.next());
+        } else {
+            System.out.println("List is empty.");
+        }
+    }
+}
